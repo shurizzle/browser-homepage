@@ -1,0 +1,23 @@
+{
+  "name": "browser-homepage",
+  "version": "1.0.0",
+  "description": "Just ignore it.",
+  "scripts": {
+    "build": "node compress.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shurizzle/browser-homepage.git"
+  },
+  "author": "shurizzle <shura1991@gmail.com>",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/shurizzle/browser-homepage/issues"
+  },
+  "homepage": "https://github.com/shurizzle/browser-homepage#readme",
+  "dependencies": {
+    "@node-minify/core": "^6.1.0",
+    "@node-minify/html-minifier": "^6.1.0",
+    "mkdirp": "^1.0.4"
+  }
+}
